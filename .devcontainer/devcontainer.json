@@ -2,6 +2,10 @@
     "name": "Azure Developer CLI",
     "image": "mcr.microsoft.com/devcontainers/python:3.10-bullseye",
     "features": {
+		"ghcr.io/devcontainers/features/dotnet:2": {
+			"version": "8.0",
+			"additionalVersions": "6.0"
+		},
         // See https://containers.dev/features for list of features
         "ghcr.io/devcontainers/features/docker-in-docker:2": {
         },
